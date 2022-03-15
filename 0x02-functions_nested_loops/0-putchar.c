@@ -1,4 +1,4 @@
-#include "putchar.h"
+#include "main.h"
 
 /**
  * main - Check description
@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char word[7] = "Putchar";
+	char word[4] = "Main";
 	int i;
 
-	for (i = 0; i < 7; i++)
+	for (i = 0; i < 4; i++)
 		_putchar(word[i]);
 	_putchar('\n');
 
