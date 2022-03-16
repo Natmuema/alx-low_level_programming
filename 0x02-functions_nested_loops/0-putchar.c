@@ -1,17 +1,20 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Check description
- * Description: It prints the word Putchar, followed by a new line.
- * Return: 0.
+ * main -  prints Holberton, followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char word[4] = "Main";
-	int i;
-
-	for (i = 0; i < 4; i++)
-		_putchar(word[i]);
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
 
 	return (0);
